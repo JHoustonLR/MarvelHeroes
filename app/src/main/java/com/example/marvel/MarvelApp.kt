@@ -1,14 +1,10 @@
 package com.example.marvel
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.compose.rememberNavController
-import com.example.marvel.api.CharacterViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.marvel.presentation.MainViewModel
 
 @Composable
-fun MarvelApp(characterViewModel: CharacterViewModel) {
-    val navController = rememberNavController()
-    NavGraph(
-        navController = navController,
-        characterViewModel = characterViewModel
-    )
+fun MarvelApp() {
+    val viewModel: MainViewModel = viewModel()  // Получаем viewModel внутри компонента
 }

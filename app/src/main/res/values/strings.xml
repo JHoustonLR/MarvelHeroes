@@ -9,4 +9,6 @@
     <string name="hero_description_deadpool">Please don’t make the super suit green&#8230;or animated!</string>
     <string name="hero_description_iron_man">I AM IRON MAN</string>
     <string name="hero_description_spider_man">In iron suit</string>
+
+    <string name="error">There was an error</string>
 </resources>

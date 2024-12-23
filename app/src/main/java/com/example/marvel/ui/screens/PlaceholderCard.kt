@@ -20,10 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun PlaceholderCard(
-    showError: Boolean = false,
-    errorMessage: String? = null
-) {
+fun PlaceholderCard(showError: Boolean = false,errorMessage: String? = null) {
     Column(
         modifier = Modifier
             .width(350.dp)

@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         characterViewModel = ViewModelProvider(this, factory)[CharacterViewModel::class.java]
 
         setContent {
-            MarvelApp(characterViewModel)
+            MarvelApp()  // Без аргументов
         }
     }
 }

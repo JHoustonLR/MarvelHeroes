@@ -10,7 +10,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import coil3.compose.AsyncImage
+import coil.compose.AsyncImage
 import com.example.marvel.R
 
 
